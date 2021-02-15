@@ -8,13 +8,11 @@ bodyClass: bg-gray-100
   <block name="head">
     <style>
       .emailheader {
-        background: url('https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO');
         background-repeat: no-repeat;
         background-size: cover;
       }
 
       .emailfooter {
-        background: url('https://drive.google.com/uc?id=1c1UQlhq731wNJ8CObIJHqafcJC7XyvEu');
         background-repeat: no-repeat;
         background-size: 100%;
         height: 150px;
@@ -31,22 +29,25 @@ bodyClass: bg-gray-100
     <table class="mx-auto font-sans w-600">
       <tr class="">
         <td align="center" class="bg-gray-100 sm:px-16">
-
-          
           <table class="w-600 sm:w-full">
             <tr class="bg-white">
-              <td class="flex items-center justify-between p-48 sm:py-32 sm:px-24 emailheader">
-                <div class="flex items-baseline">
-                  <img src="https://drive.google.com/uc?id=1BFsBVxC-GX-ZmexA_mFXzjnkUod0SKnB" width="40" height="42"
-                    class="pr-6">
-                  <h1 class="self-center m-0 text-4xl text-white font-objectivity">ITECH</h1>
-                </div>
-                <div class="flex flex-col justify-center">
-                  <h4 class="p-0 m-0 font-medium text-right text-white uppercase text-md font-objectivity">FEBRUARY 15,
-                    2021</h4>
-                  <h4 class="p-0 m-0 font-medium text-right text-white uppercase text-md font-objectivity">Weekly
-                    Newsletter</h4>
-                </div>
+              <!-- https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO -->
+              <td class="flex items-center justify-between p-48 sm:py-32 sm:px-24 emailheader" background='https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO'>
+                <table class="w-full">
+                  <tbody>
+                    <tr>
+                      <td class="flex items-center">
+                        <img src="https://drive.google.com/uc?id=1BFsBVxC-GX-ZmexA_mFXzjnkUod0SKnB" width="40" height="42" class="pr-6">
+                        <h1 class="self-center m-0 text-4xl text-white font-objectivity">ITECH</h1>
+                      </td>
+                      <td> 
+                        <h4 class="p-0 m-0 font-medium text-right text-white uppercase text-md font-objectivity">FEBRUARY 15,
+                          2021</h4>
+                        <h4 class="p-0 m-0 font-medium text-right text-white uppercase text-md font-objectivity">Weekly
+                          Newsletter</h4>
+                      </td>
+                    </tr>
+                  </tbody>
               </td>
             </tr>
             <tr>
@@ -54,7 +55,7 @@ bodyClass: bg-gray-100
                 <component src="src/components/vmlbg.html"
                   locals='{"width": 600, "height": 400, "src": "https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"}'>
                   <div class="leading-64 sm:h-32">&zwnj;</div>
-                  <table class="w-full">
+                  <table class="w-full" align="center">
                     <tr>
                       <td class="w-48 sm:w-16"></td>
                       <td>
@@ -103,166 +104,125 @@ bodyClass: bg-gray-100
                   Check This Out!
                 </h1>
                 <a href="https://byteitech.com/login"></a>
-
               </td>
             </tr>
-            <tr  class="bg-white">
+            <tr class="w-full bg-white">
               <td>
-                
-                <div class="flex flex-col justify-center w-full">                
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=18fMdaBgZh5-FbJDmPY3U-IbNPpDtRD-e" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    Intro to Python: Functions and Recursion
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    This article is all about creating and using functions in Python such as local & global variables,
-                    with concepts of recursion through visualization and a step-by-step guide
-                  </p>
-                </div>
-              </div>
+                <table align="center" class="w-3/5">
+                  <tr class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=18fMdaBgZh5-FbJDmPY3U-IbNPpDtRD-e" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Intro to Python: Functions and Recursion
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          This article is all about creating and using functions in Python such as local & global variables,
+                          with concepts of recursion through visualization and a step-by-step guide
+                        </p>
+                    </td>
+                  </tr>
+                  <tr class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=10ZcC_3Sk258ph96KTo5W8J9_TX6E5-bL" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Intro to Python: Exceptions and Debugging
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          This article explains how to prevent, handle, and solve errors in your program. It also teaches the
+                          concept of debugging and its importance
+                        </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=19K5wZFLqjm-hNUBRqA0dDmYUolS0HXb2" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Intro to Python: Closing Remarks and Final Challenge
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          Some final remarks for finishing the course and a final challenge to showcase your newfound
+                          knowledge on Python
+                        </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td background='https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO'>
+                          <img src="https://drive.google.com/uc?id=1zRycLmJuKlV_icP5HtdxzaK0XM0-00D9" class="w-full">
+                          <p class="mt-24 font-bold text-md font-objectivity">
+                            Intro to HTML: What is HTML?
+                          </p>
+                          <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                            What is HTML? We often hear of it but what exactly is its role in web development? How is it different
+                            from other languages?
+                          </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=1kplnivNEg4yBQou8Lb5G9NiBPDFtOFi4" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Intro to HTML: Web Design
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          With all these knowledge on HTML terms and tags, how can we apply it to designing a usable and
+                          navigable website? Let's tackle the basic on how to structure your website!
+                        </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=1XEOI7TgMBR_kdqxHSBFAbk1C48riYJHC" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Intro to HTML: Common Terms and Tags
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          HTML involves a wide range of tags and and we can only cover little! Let's start off with one of the
+                          most common ones and a couple of terms that will aid in our understanding of how HTML works.
+                        </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td>        
+                      <img src="https://drive.google.com/uc?id=1chCIm7wA-hCg-cES7Hw_MNhEsrBKYRgI" class="w-full">
+                      <p class="mt-24 font-bold text-md font-objectivity">
+                        Start-Up Spotlight with Kumu
+                      </p>
+                      <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                        Learn more about the struggles and pivots that brought the founders of this local livestreaming app
+                        to where it is today.
+                      </p>
+                    </td>
+                  </tr>
+                  <tr  class="bg-white">
+                    <td>
+                        <img src="https://drive.google.com/uc?id=12AMWg7DezegA5U-M9KPrZ49nJuK9e_vI" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          What are Internships?
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          A brief introduction on all you need to know about internships and what they can do for you.
+                        </p>
+                    </td>
+                  </tr>
+                  <tr class="bg-white">
+                    <td>      
+                        <img src="https://drive.google.com/uc?id=1i9m24B13hzeTCHWLAYgPKj8NUufvGD39" class="w-full">
+                        <p class="mt-24 font-bold text-md font-objectivity">
+                          Internship Insights: Kass Monzon
+                        </p>
+                        <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
+                          A feature on the importance of internships from the founder of one of the country's on-the-rise
+                          workplace startups.
+                        </p>
+                    </td>
+                  </tr>
+                </table>
               </td>
-            </tr>
-            <tr class="bg-white">
-              <td>
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=10ZcC_3Sk258ph96KTo5W8J9_TX6E5-bL" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    Intro to Python: Exceptions and Debugging
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    This article explains how to prevent, handle, and solve errors in your program. It also teaches the
-                    concept of debugging and its importance
-                  </p>
-                </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=19K5wZFLqjm-hNUBRqA0dDmYUolS0HXb2" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    Intro to Python: Closing Remarks and Final Challenge
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    Some final remarks for finishing the course and a final challenge to showcase your newfound
-                    knowledge on Python
-                  </p>
-                </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>
-                
-                <div class="flex flex-col justify-center w-full">
-                  <div class="self-center w-3/5 p-10">
-                    <img src="https://drive.google.com/uc?id=1zRycLmJuKlV_icP5HtdxzaK0XM0-00D9" class="w-full">
-                    <p class="mt-24 font-bold text-md font-objectivity">
-                      Intro to HTML: What is HTML?
-                    </p>
-                    <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                      What is HTML? We often hear of it but what exactly is its role in web development? How is it different
-                      from other languages?
-                    </p>
-                  </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=1kplnivNEg4yBQou8Lb5G9NiBPDFtOFi4" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    Intro to HTML: Web Design
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    With all these knowledge on HTML terms and tags, how can we apply it to designing a usable and
-                    navigable website? Let's tackle the basic on how to structure your website!
-                  </p>
-                </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=1XEOI7TgMBR_kdqxHSBFAbk1C48riYJHC" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    Intro to HTML: Common Terms and Tags
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    HTML involves a wide range of tags and and we can only cover little! Let's start off with one of the
-                    most common ones and a couple of terms that will aid in our understanding of how HTML works.
-                  </p>
-                </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>        
-                <div class="flex flex-col justify-center w-full">
-
-                  <div class="self-center w-3/5 p-10">
-                <img src="https://drive.google.com/uc?id=1chCIm7wA-hCg-cES7Hw_MNhEsrBKYRgI" class="w-full">
-                <p class="mt-24 font-bold text-md font-objectivity">
-                  Start-Up Spotlight with Kumu
-                </p>
-                <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                  Learn more about the struggles and pivots that brought the founders of this local livestreaming app
-                  to where it is today.
-                </p>
-              </div>
-              </div>
-              
-            </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                  <img src="https://drive.google.com/uc?id=12AMWg7DezegA5U-M9KPrZ49nJuK9e_vI" class="w-full">
-                  <p class="mt-24 font-bold text-md font-objectivity">
-                    What are Internships?
-                  </p>
-                  <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                    A brief introduction on all you need to know about internships and what they can do for you.
-                  </p>
-                </div>
-                </div>
-              </td>
-            </tr>
-            <tr  class="bg-white">
-              <td>      
-                <div class="flex flex-col justify-center w-full">
-
-                <div class="self-center w-3/5 p-10">
-                <img src="https://drive.google.com/uc?id=1i9m24B13hzeTCHWLAYgPKj8NUufvGD39" class="w-full">
-                <p class="mt-24 font-bold text-md font-objectivity">
-                  Internship Insights: Kass Monzon
-                </p>
-                <p class="text-sm font-thin leading-tight leading-24 font-objectivity">
-                  A feature on the importance of internships from the founder of one of the country's on-the-rise
-                  workplace startups.
-                </p>
-              </div>
-              </div>
-            </td>
             </tr>
         </td>
       </tr>
       <tr class="bg-white">
-        <td class="flex items-center justify-between p-12 sm:py-32 sm:px-24 emailfooter">
+        <td class="flex items-center justify-between p-12 sm:py-32 sm:px-24 emailfooter" background='https://drive.google.com/uc?id=1c1UQlhq731wNJ8CObIJHqafcJC7XyvEu'>
           <div class="leading-64 sm:h-32">&zwnj;</div>
         </td>
       </tr>
