@@ -1,0 +1,288 @@
+<extends src="src/layouts/master.html">
+  <block name="head">
+    <style>
+      .emailheader {
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .emailfooter {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 150px;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+    </style>
+  </block>
+  <block name="template">
+    <table align="center" class="mx-auto font-sans bg-gray-100" bgcolor="#F3F4F6">
+      <tr class="bg-gray-100 w-600" align="center">
+        <td align="center" class="sm:px-16">
+          <table class="w-600 sm:w-full">
+            <tr class="bg-white">
+              <!-- https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO -->
+              <td
+                class="flex items-center justify-between py-24 px-48 sm:py-32 sm:px-24 emailheader bg-gradient-to-t from-pink-100 to-purple-400 ...">
+                <table class="w-full">
+                  <!-- START:  1.HEADER ///////////////////////////////////////////////////-->
+
+                  <tbody>
+                    <tr>
+                      <td class="flex items-center">
+                        <img src="https://drive.google.com/uc?id=1BFsBVxC-GX-ZmexA_mFXzjnkUod0SKnB" width="48"
+                          height="50" class="pr-6">
+                        <h1 class="self-center m-0 text-5xl text-white font-objectivity">ITECH</h1>
+                      </td>
+                      <td>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">
+                          May 15, 2021
+                        </h4>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">Weekly
+                          Newsletter</h4>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- END:  1.HEADER ///////////////////////////////////////////////////-->
+
+
+              </td>
+            </tr>
+            <tr>
+              <td class="bg-white">
+                <component src="src/components/vmlbg.html"
+                  locals='{"width": 600, "height": 400, "src": "https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"}'>
+
+                  <table class="w-full mt-12" align="center">
+                    <!-- START: 2.LETTER ///////////////////////////////////////////////////-->
+
+                    <tr>
+                      <td class="w-48 sm:w-16"></td>
+                      <td>
+                        <p class="mb-32 text-sm font-thin text-center">If you are viewing this on mobile, press revert
+                          auto-sizing
+                        </p>
+                        <h1 class="mb-16 text-2xl sm:leading-40 font-objectivity">Hey Bits!</h1>
+
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          This MAY be cheesy but we kinda miss you!
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+
+                          Check out some articles you may have missed! We hope you encounter some concepts you might
+                          like!
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+
+                          Whatever H you are, you may want to take a look at the <b>The Lean Business Model!</b> It definitely
+                          is a good article before you venture of doing any kind of project.
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+
+                          Happy learning Bits! It is the road to Unicorns for all of us.
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+
+                          If you have any concerns or questions, please feel free to fill up the form in this link:
+                          <a class="inline" href="https://docs.google.com/forms/d/e/1FAIpQLSeSOI0HZtXYGRCu9Kfybq66BpYdHUCn2vQZTLlXAjKCqYXngQ/viewform">tinyurl.com/ITECHFeedbackForm</a>.
+
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+
+                          Enjoy your MAY days <span>❤️</span>
+                        </p>
+
+                        <p class="mt-32 text-lg leading-24 font-objectivity">
+                          Love,<br />
+                          ITECH Team
+                        </p>
+                      </td>
+                      <td class="w-48 sm:w-16"></td>
+                    </tr>
+                  </table>
+                  <!-- END: 2.LETTER ///////////////////////////////////////////////////-->
+
+
+
+                  <div class="leading-64 sm:h-32">&zwnj;</div>
+                </component>
+              </td>
+            </tr>
+            <tr>
+              <td class="pb-32 bg-white">
+                <h1 class="text-3xl font-bold text-center font-objectivity" style="color: #64C0C1">
+                  Check This Out!
+                </h1>
+              </td>
+            </tr>
+            <tr class="w-full pb-32 bg-white">
+              <td>
+                <a href="https://byteitech.com/login">
+
+                  <!-- START: 3.ARTICLES ///////////////////////////////////////////////////-->
+                  <table align="center" class="w-3/5 mb-48">
+                    <!-- Start: Article1 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/151210382_861000838014145_5989392414330339299_n_590b47d519.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Starting SQL
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Ready to start your SQL journey but don't know what SQL is? Or need a brief refresher on databases? Then, this article is just for you and will equip you with the tools you need to start learning SQL.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article1 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article2 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/pexels_pixabay_373543_1_4524ae9610.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Intro to DOM and the Frameworks
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          A short introduction to the DOM: what it is and why is it important. This also introduces frameworks: what are they, why are they so important, and how to get started learning one of them!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article2 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article3 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/151629679_220674103073374_4312113305937301281_n_720d218b3b.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Approaches for Ethical Decision-Making
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article walks you through the different approaches to help a business act clearly and grow by highlighting the importance of having a framework for ethical decisions. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article3 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article4 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/Design_Process_thumbnail_172e4fe1c8.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          The Lean Business Model
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Learn more about the popular business strategy used by people all over the world to boost efficiency in their outputs in this article!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article4 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article5 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/IMG_9237_12cc75013d.JPG" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          The Hows and Whats of Business Development
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article will walk you through the basics and significance of business development. It will also guide you where to begin on your magnificent journey with the help of some resources in this article. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article5 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article6 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/pexels_startup_stock_photos_7376_2_b3e421533d.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Design Study: the First Step into a UX Design Project
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Sometimes, being handed a new UX design project is like stepping into a vast unknown. There are unfamiliar industries, untapped users, unexplored opportunities, and hidden risks. So how do you gain footing in such a strange and seemingly uncharted sea? Take your first step by conducting a design study.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article6 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article7 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/interns_blog_1f3e184835.png" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          What are Internships
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          A brief introduction on all you need to know about internships and what they can do for you. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article7 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article8 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/workbean_257ea5b6ab.jpeg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Internship Insights: Kass Monzon
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          A feature on the importance of internships from the founder of one of the country's on-the-rise workplace startups. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article8 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article9 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/developers_discussing_javascript_code_1_eb5348badb.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Intro to CSS
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article explains the basic rules of CSS for new developers to style HTML elements in creating webpages.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article9 ///////////////////////////////////////////////////-->
+
+                    <!-- Start: Article10 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/image_2_10a9ea3d6d.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          User Interviews: Getting Up Close and Personal
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          The best way to get to know your users is through user interviews, but conducting them is not that easy. Check out this article to learn more about what to do before, during, and after user interviews.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article10 ///////////////////////////////////////////////////-->
+                  </table>
+                  <!-- END: 3.ARTICLES ///////////////////////////////////////////////////-->
+
+                </a>
+              </td>
+            </tr>
+            <table class="w-600" align="center">
+              <tr class="w-full bg-white" bgcolor='#B8C3FD' align="center">
+                <td class="p-12 sm:py-32 sm:px-24 emailfooter bg-gradient-to-t to-pink-100 from-purple-400 ..."
+                  align="center">
+                </td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+  </block>
+</extends>

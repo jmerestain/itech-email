@@ -1,0 +1,320 @@
+<extends src="src/layouts/master.html">
+  <block name="head">
+    <style>
+      .emailheader {
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .emailfooter {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 150px;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+    </style>
+  </block>
+  <block name="template">
+    <table align="center" class="mx-auto font-sans bg-gray-100" bgcolor="#F3F4F6">
+      <tr class="bg-gray-100 w-600" align="center">
+        <td align="center" class="sm:px-16">
+          <table class="w-600 sm:w-full">
+            <tr class="bg-white">
+              <!-- https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO -->
+              <td
+                class="flex items-center justify-between py-24 px-48 sm:py-32 sm:px-24 emailheader bg-gradient-to-t from-pink-100 to-purple-400 ...">
+                <table class="w-full">
+                  <!-- START:  1.HEADER ///////////////////////////////////////////////////-->
+
+                  <tbody>
+                    <tr>
+                      <td class="flex items-center">
+                        <img src="https://drive.google.com/uc?id=1BFsBVxC-GX-ZmexA_mFXzjnkUod0SKnB" width="48"
+                          height="50" class="pr-6">
+                        <h1 class="self-center m-0 text-5xl text-white font-objectivity">ITECH</h1>
+                      </td>
+                      <td>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">
+                          May 1, 2021
+                        </h4>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">Weekly
+                          Newsletter</h4>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- END:  1.HEADER ///////////////////////////////////////////////////-->
+
+
+              </td>
+            </tr>
+            <tr>
+              <td class="bg-white">
+                <component src="src/components/vmlbg.html"
+                  locals='{"width": 600, "height": 400, "src": "https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"}'>
+
+                  <table class="w-full mt-12" align="center">
+                    <!-- START: 2.LETTER ///////////////////////////////////////////////////-->
+
+                    <tr>
+                      <td class="w-48 sm:w-16"></td>
+                      <td>
+                        <p class="mb-32 text-sm font-thin text-center">If you are viewing this on mobile, press revert
+                          auto-sizing
+                        </p>
+                        <h1 class="mb-16 text-2xl sm:leading-40 font-objectivity">Hey Bits!</h1>
+
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          MAY you be interested in some reads for Young Tech Entrepreneurs? <span>📚</span>
+                        </p>
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          Have you seen some of these articles ITECH has prepare for you to read and learn about
+                          throughout the week? We hope you encounter some concepts you might like!
+                        </p>
+                        <p class="mt-24 text-lg group-hover:leading-24 font-objectivity">
+                          Learn about <b>Python</b> and <b>HTML</b> as our team has shared the basics that you can
+                          definitely start with. Be sure to also check out the journey of start ups like <b>Kumu</b> as
+                          they share their secrets of success.
+                        </p>
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          Happy learning Bits! It is the road to Unicorns for all of us.
+                        </p>
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          If you have any concerns or questions, please feel free to fill up the form in this link: 
+                          <a class="inline" href="https://docs.google.com/forms/d/e/1FAIpQLSeSOI0HZtXYGRCu9Kfybq66BpYdHUCn2vQZTLlXAjKCqYXngQ/viewform">tinyurl.com/ITECHFeedbackForm</a>.
+
+                        </p>
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          Happy week, Bits!
+                        </p>
+
+                        <p class="mt-32 text-lg leading-24 font-objectivity">
+                          Love,<br />
+                          ITECH Team
+                        </p>
+                      </td>
+                      <td class="w-48 sm:w-16"></td>
+                    </tr>
+                  </table>
+                  <!-- END: 2.LETTER ///////////////////////////////////////////////////-->
+
+
+
+                  <div class="leading-64 sm:h-32">&zwnj;</div>
+                </component>
+              </td>
+            </tr>
+            <tr>
+              <td class="pb-32 bg-white">
+                <h1 class="text-3xl font-bold text-center font-objectivity" style="color: #64C0C1">
+                  Check This Out!
+                </h1>
+              </td>
+            </tr>
+            <tr class="w-full pb-32 bg-white">
+              <td>
+                <a href="https://byteitech.com/login">
+
+                  <!-- START: 3.ARTICLES ///////////////////////////////////////////////////-->
+                  <table align="center" class="w-3/5 mb-48">
+                    <!-- Start: Article1 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/w7_Zyu_GY_Np_RQ_7013043c3d.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+
+
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to Python: Functions and Recursion
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+This article is all about creating and using functions in Python such as local & global variables, with concepts of recursion through visualization and a step-by-step guide
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article1 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article2 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/v_JP_w_Z6h_G_Bg_30b6c70f56.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+
+
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to Python: Exceptions and Debugging
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article explains how to prevent, handle, and solve errors in your program. It also teaches the concept of debugging and its importance
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article2 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article3 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/Z2c6oun_F_i_E_7e2db09fec.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+
+
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to Python: Closing Remarks and Final Challenge
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Some final remarks for finishing the course and a final challenge to showcase your newfound knowledge on Python
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article3 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article4 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/html_1_cc734f147e.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to HTML: What is HTML?
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          What is HTML? We often hear of it but what exactly is its role in web development? How is it different from other languages?
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article4 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article5 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/html_86eb93d633.jpeg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to HTML: Web Design
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          With all these knowledge on HTML terms and tags, how can we apply it to designing a usable and navigable website? Let's tackle the basic on how to structure your website!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article5 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article6 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/html_tags_29e47200d6.png"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Intro to HTML: Common Terms and Tags
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          HTML involves a wide range of tags and and we can only cover little! Let's start off with one of the most common ones and a couple of terms that will aid in our understanding of how HTML works.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article6 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article7 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/kumu_7a760e2ff3.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Start-Up Spotlight with Kumu
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Learn more about the struggles and pivots that brought the founders of this local livestreaming app to where it is today.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article7 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article8 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/151170257_2819369061641218_9179326049130675103_n_8281b97e68.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          How to Conduct and Organize Your User Testing
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This is an article that will lead you to the basics of user testing. It provides an abridged content on its description, types, and importance. User testing varies greatly but this short article will give you an overview of the process.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article8 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article9 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/151597735_1186893478395375_6432452813909801460_n_b7872eb74a.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Hipster Resource Recommendations
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Not sure how or where to get started on your Hipster journey? Well, this article takes you through some of my personal favorite learning resources and recommendations across the various fields that make up a Hipster!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article9 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article10 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img
+                          src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/151131755_2870061799981830_6612781716550685578_n_b62ff650d8.jpg"
+                          class="object-cover w-full rounded-2xl" style="height: 147.3px"
+                          >
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+
+                          Because It’s All About That (Data)base
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Get to learn some terminologies and related disciplines to understand databases better!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- End: Article10 ///////////////////////////////////////////////////-->
+
+                  </table>
+                  <!-- END: 3.ARTICLES ///////////////////////////////////////////////////-->
+
+                </a>
+              </td>
+            </tr>
+            <table class="w-600" align="center">
+              <tr class="w-full bg-white" bgcolor='#B8C3FD' align="center">
+                <td class="p-12 sm:py-32 sm:px-24 emailfooter bg-gradient-to-t to-pink-100 from-purple-400 ..."
+                  align="center">
+                </td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+  </block>
+</extends>

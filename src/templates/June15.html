@@ -1,0 +1,272 @@
+<extends src="src/layouts/master.html">
+  <block name="head">
+    <style>
+      .emailheader {
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .emailfooter {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 150px;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+        display: block;
+      }
+    </style>
+  </block>
+  <block name="template">
+    <table align="center" class="mx-auto font-sans bg-gray-100" bgcolor="#F3F4F6">
+      <tr class="bg-gray-100 w-600" align="center">
+        <td align="center" class="sm:px-16">
+          <table class="w-600 sm:w-full">
+            <tr class="bg-white">
+              <!-- https://drive.google.com/uc?id=1CMFKs_M4ogqzjSMLPvDhHZ417k2bRcvO -->
+              <td
+                class="flex items-center justify-between py-24 px-48 sm:py-32 sm:px-24 emailheader bg-gradient-to-t from-pink-100 to-purple-400 ...">
+                <table class="w-full">
+                  <!-- START:  1.HEADER ///////////////////////////////////////////////////-->
+
+                  <tbody>
+                    <tr>
+                      <td class="flex items-center">
+                        <img src="https://drive.google.com/uc?id=1BFsBVxC-GX-ZmexA_mFXzjnkUod0SKnB" width="48"
+                          height="50" class="pr-6">
+                        <h1 class="self-center m-0 text-5xl text-white font-objectivity">ITECH</h1>
+                      </td>
+                      <td>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">
+                          June 15, 2021
+                        </h4>
+                        <h4 class="p-0 m-0 font-bold text-right text-white uppercase text-md font-objectivity">Weekly
+                          Newsletter</h4>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- END:  1.HEADER ///////////////////////////////////////////////////-->
+
+
+              </td>
+            </tr>
+            <tr>
+              <td class="bg-white">
+                <component src="src/components/vmlbg.html"
+                  locals='{"width": 600, "height": 400, "src": "https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80"}'>
+
+                  <table class="w-full mt-12" align="center">
+                    <!-- START: 2.LETTER ///////////////////////////////////////////////////-->
+
+                    <tr>
+                      <td class="w-48 sm:w-16"></td>
+                      <td>
+                        <p class="mb-32 text-sm font-thin text-center">If you are viewing this on mobile, press revert
+                          auto-sizing
+                        </p>
+                        <h1 class="mb-16 text-2xl sm:leading-40 font-objectivity">Hey Bits!</h1>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          JUNE you still have more pun ideas? No? Same.
+                        </p>
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          Maybe checking out articles you may have missed out on can spark some fresh ideas and
+                          inspiration for you!
+                        </p>
+
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          This week you can learn where the best places to get started on coding are. Up your UX game as
+                          well by learning what <b>Habit Forming UX</b> is!
+                        </p>
+
+
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          If you have any concerns or questions, please feel free to fill up the form in this link:
+                          <a class="inline" href="https://docs.google.com/forms/d/e/1FAIpQLSeSOI0HZtXYGRCu9Kfybq66BpYdHUCn2vQZTLlXAjKCqYXngQ/viewform">tinyurl.com/ITECHFeedbackForm</a>.
+
+                        </p>
+                        <p class="mt-24 text-lg leading-24 font-objectivity">
+                          Happy rest of June!
+                        </p>
+
+                        <p class="mt-32 text-lg leading-24 font-objectivity">
+                          Love,<br />
+                          ITECH Team
+                        </p>
+                      </td>
+                      <td class="w-48 sm:w-16"></td>
+                    </tr>
+                  </table>
+                  <!-- END: 2.LETTER ///////////////////////////////////////////////////-->
+
+
+
+                  <div class="leading-64 sm:h-32">&zwnj;</div>
+                </component>
+              </td>
+            </tr>
+            <tr>
+              <td class="pb-32 bg-white">
+                <h1 class="text-3xl font-bold text-center font-objectivity" style="color: #64C0C1">
+                  Check This Out!
+                </h1>
+              </td>
+            </tr>
+            <tr class="w-full pb-32 bg-white">
+              <td>
+                <a href="https://byteitech.com/login">
+
+                  <!-- START: 3.ARTICLES ///////////////////////////////////////////////////-->
+                  <table align="center" class="w-3/5 mb-48">
+                    <!-- Start: Article1 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_5_9d8999614f.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Habit-Forming UX
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article will give an introduction of what Habit-Forming UX is and give you a brief methodology that will aid you in making your product or solution. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article1 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article2 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_6_19cb35391d.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Value Chain Analysis
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          The article tackles what competitive advantage really is, and how to use the value chain analysis to build your business' competitive advantage.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article2 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article3 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/155996730_449680206451173_3554502745611953816_n_7af55eef1f.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Asking the Right User Testing Questions
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          To gather the right data is to ask the right questions. Here is a guide to help you in asking the right questions for User Testing. 
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article3 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article4 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_2_bce3245635.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Software Architecture: Why and How?
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          This article talks about the why’s and how’s of Software Architecture. It also introduces the readers to some fundamental concepts that will help them in building a software system.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article4 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article5 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/r0sa_AQ_Nj_Ej_Q_b96aae2a8f.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          UX Research Methods and Frameworks
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Do you want to go further with your user research but have no idea where to start or what to do? Learn more about how to enrich and organize your user research by reading up on UX research methods and frameworks.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article5 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article6 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_3_b1e697b2c5.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Scrum Methodology
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Have you heard of Scrum Methodology? Curious to know more about it? Check out this article and find out for yourself!
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article6 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article7 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/IMG_9440_32e580e4aa.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Funding: Leveling up Your Start-Up
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          If you are interested to find out the necessary steps in order to get funding, this article is a must read! It will walk you through the basic steps and find yourself understanding funding terms 😇
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article7 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article8 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_4_6859eca43c.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Other Python Data Types
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Wanna go beyond strings, ints, and floats, and store multiple values into a single variable? This article will introduce to you 4 new data types which you can use to store a lot of items in instead of just one.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article8 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article9 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_3_0f34dcc7d8.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Manipulating Files Using Python
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Wanna go beyond the code and manipulate files as well? This article will equip you with the skills needed to read, write, and create files in Python just by using a few lines of code.
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article9 ///////////////////////////////////////////////////-->
+                    <!-- Start: Article10 ///////////////////////////////////////////////////-->
+                    <tr class="mb-32 bg-white">
+                      <td class="pt-20">
+                        <img src="https://itechstrapiuploadprovider.s3.ap-northeast-2.amazonaws.com/8y3e2_M6_A_Py4_2_de174b2307.jpg" class="object-cover w-full rounded-2xl" style="height: 147.3px">
+                        <p class="mt-24 text-lg font-bold font-objectivity">
+                          Some Hacker Tools to Get You Started
+                        </p>
+                        <p class="text-sm leading-tight leading-24 font-objectivity">
+                          Some tools to make a hacker's life easier and a little cooler ;)
+                        </p>
+                      </td>
+                    </tr>
+                    <!-- END: Article10 ///////////////////////////////////////////////////-->
+
+                  </table>
+                  <!-- END: 3.ARTICLES ///////////////////////////////////////////////////-->
+
+                </a>
+              </td>
+            </tr>
+            <table class="w-600" align="center">
+              <tr class="w-full bg-white" bgcolor='#B8C3FD' align="center">
+                <td class="p-12 sm:py-32 sm:px-24 emailfooter bg-gradient-to-t to-pink-100 from-purple-400 ..."
+                  align="center">
+                </td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+  </block>
+</extends>
